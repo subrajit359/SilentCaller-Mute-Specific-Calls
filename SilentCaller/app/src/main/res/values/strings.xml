@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Caller</string>
+
+    <!-- Main screen -->
+    <string name="header_description">Numbers on this list will be silenced when they call — the call still appears on screen so you can answer or decline it.</string>
+    <string name="empty_list_title">No numbers silenced yet</string>
+    <string name="empty_list_subtitle">Tap the + button below to add a phone number you want to silence.</string>
+    <string name="add_number_title">Add Number</string>
+    <string name="settings_title">Settings</string>
+    <string name="added_on">Added on %1$s</string>
+
+    <!-- Add Number screen -->
+    <string name="add_number_instruction">Enter a phone number to silence it. When this number calls, the phone will show the incoming call on screen but play no sound or ringtone.</string>
+    <string name="hint_phone_number">Phone number (e.g. +91 98765 43210)</string>
+    <string name="hint_label">Label / Nickname (optional)</string>
+    <string name="label_helper_text">e.g. "Spam", "Telemarketer", "Unknown"</string>
+    <string name="save">Save</string>
+    <string name="number_added_success">Number added to silent list</string>
+
+    <!-- Errors -->
+    <string name="error_empty_number">Please enter a phone number</string>
+    <string name="error_invalid_number">Please enter a valid phone number</string>
+    <string name="error_duplicate_number">This number is already in the silent list</string>
+
+    <!-- Settings screen -->
+    <string name="silent_feature_toggle_label">Silent Caller Feature</string>
+    <string name="feature_enabled_description">Active — silenced numbers will not ring</string>
+    <string name="feature_disabled_description">Disabled — all calls will ring normally</string>
+    <string name="settings_info_title">ℹ️ How it works</string>
+    <string name="settings_info_body">When disabled, all calls ring normally even if the number is on your silent list. Your list is preserved and the feature can be re-enabled at any time.</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_delete_title">Remove Number</string>
+    <string name="confirm_delete_message">Remove %1$s from the silent list? This number will ring normally again.</string>
+    <string name="number_removed">Number removed from silent list</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_title">Permissions Required</string>
+    <string name="permission_rationale_message">Silent Caller needs the following permissions to work:\n\n• Read Phone State — to detect incoming calls\n• Read Call Log — to identify the caller\'s number\n• Modify Audio Settings — to silence the ringer\n\nWithout these permissions, the app cannot silence calls.</string>
+    <string name="permission_denied_title">Permissions Not Granted</string>
+    <string name="permission_denied_message">Silent Caller cannot function without the required permissions. Please open Settings and grant the permissions manually to enable call silencing.</string>
+
+    <!-- Overlay (SYSTEM_ALERT_WINDOW) permission -->
+    <string name="overlay_permission_title">Overlay Permission Needed</string>
+    <string name="overlay_permission_message">Silent Caller can show a mute icon over the incoming call screen so you can add any caller to your silent list with one tap.\n\nTo enable this, tap "Open Settings" and turn on "Display over other apps" for Silent Caller.</string>
+
+    <!-- Overlay UI strings -->
+    <string name="overlay_add_prompt">Add this number to your permanent silent list?</string>
+    <string name="overlay_add_subtitle">Future calls from this number will be permanently silent.</string>
+    <string name="overlay_yes_add">Yes, Add</string>
+    <string name="overlay_no_thanks">No Thanks</string>
+    <string name="overlay_already_in_list">This number is already in your silent list</string>
+
+    <!-- Buttons -->
+    <string name="grant">Grant Permissions</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="open_settings">Open Settings</string>
+</resources>
